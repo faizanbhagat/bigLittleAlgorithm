@@ -15,7 +15,6 @@
 #include <limits>
 #include <numeric>
 #include <unordered_map>
-#include "xcode_redirect.hpp"
 
 using namespace std;
 
