@@ -1,7 +1,8 @@
-Welcome to the Big Little Pairing Algorithm!
+### Welcome to the Big Little Pairing Algorithm!
 
 Input Files : 
 Please prepare the input files like the example files, bigToLittleExample.csv and littleToBigExample.csv
+
 Notes : 
 - The second column is each person's first ranking, the third column their second ranking etc...
 - Ensure spelling is CORRECT for all cells (capitilzation must be the same too), failure to do so will result in improper results
