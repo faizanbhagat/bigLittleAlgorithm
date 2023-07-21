@@ -10,11 +10,12 @@ Notes :
 - Ensure that there are no headers to either of the files
 
 Procedure : 
-1. Create a folder with this file as well as your two input files
-2. Open a terminal and navigate to this folder
-3. Run 'g++ pairing.cpp -o pairing'
-4. Then run, ./pairing
-5. Input the two files as given by the prompts
-6. Program will return the mathematically optimal big little pairings, enjoy!
+1. Clone this repository into a folder
+2. Add your ranking files to the folder
+3. Open a terminal and navigate to this folder
+4. Run 'g++ pairing.cpp -o pairing'
+5. Then run, ./pairing
+6. Input the two files as given by the prompts
+7. Program will return the mathematically optimal big little pairings, enjoy!
 
 Designed for Phi Gamma Nu @ The University of Michigan by Faizan Bhagat, Summer 2023
