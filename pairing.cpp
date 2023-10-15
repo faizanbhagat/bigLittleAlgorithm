@@ -41,15 +41,15 @@ vector<string> allLittles;
 vector<string> bigs;
 vector<string> littles;
 
-vector<vector<string>> bigToLittle;
-vector<vector<string>> littleToBig;
+vector<vector<string> > bigToLittle;
+vector<vector<string> > littleToBig;
 
 vector<bigLittlePairing> finalPairing;
 vector<bigLittlePairing> oneToOnes;
-vector<vector<bigLittlePairing>> allFinalPairings;
+vector<vector<bigLittlePairing> > allFinalPairings;
 
-unordered_map<string, unordered_map<string, int>> bigLittleDist;
-unordered_map<string, unordered_map<string, int>> littleBigDist;
+unordered_map<string, unordered_map<string, int> > bigLittleDist;
+unordered_map<string, unordered_map<string, int> > littleBigDist;
 
 int bestAmount = 1000;
 int currAmount = -1;
@@ -321,7 +321,7 @@ void removeOneToOnes()
     and prunes branches that are worse than the current best
 */
 void generatePairings(const vector<string> &littles, const vector<string> &bigs,
-                      vector<pair<string, string>> &pairings, vector<bool> &used, int index, int i)
+                      vector<pair<string, string> > &pairings, vector<bool> &used, int index, int i)
 {
     if (index == bigs.size())
     {
@@ -395,7 +395,7 @@ void generateAllPairings(const vector<string> &littles, const vector<string> &bi
     }
 
     vector<bool> used(littles.size(), false);                   // Track used people from littles
-    vector<std::pair<string, string>> pairings(littles.size()); // Store the pairings
+    vector<std::pair<string, string> > pairings(littles.size()); // Store the pairings
     finalPairing.resize(bigs.size());
 
     generatePairings(littles, bigs, pairings, used, 0, 1);
