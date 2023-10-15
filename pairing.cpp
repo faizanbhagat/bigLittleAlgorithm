@@ -484,10 +484,6 @@ void userInput()
 */
 int main(int argc, char *argv[])
 {
-    int x = 3;
-    int y = 45;
-    int z = x + y;
-
     userInput();
 
     setPCLists();
