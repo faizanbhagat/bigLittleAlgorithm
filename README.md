@@ -1,15 +1,15 @@
-### Welcome to the Big Little Pairing Algorithm!
+# Welcome to the Big Little Pairing Algorithm!
 
-Input Files : 
+##Input Files: 
 Please prepare the input files like the example files, bigToLittleExample.csv and littleToBigExample.csv
 
-Notes : 
+Notes about input files: 
 - The second column is each person's first ranking, the third column their second ranking etc...
 - Ensure spelling is correct for all cells (capitilzation must be the same too), failure to do so will result in improper results
 - Ensure that there are either an equal number or more littles than bigs
-- Ensure that there are no headers to either of the files
+- Ensure that there are no headers on either of the files
 
-Procedure : 
+##Procedure: 
 1. Clone this repository into a folder
 2. Add your ranking files to the folder
 3. Open a terminal and navigate to this folder

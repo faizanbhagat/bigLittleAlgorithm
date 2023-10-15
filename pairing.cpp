@@ -63,7 +63,13 @@ int counter = 0;
     Also tallies and prints the totalWeight of the pairing.
 */
 
+bool compareByWeight(const bigLittlePairing &a, const bigLittlePairing &b)
+{
+    return a.weightAmount <= b.weightAmount;
+}
+
 void printOneFinalPairing(vector<bigLittlePairing> finalPairing) {
+    sort(finalPairing.begin(), finalPairing.end(), compareByWeight);
     int totalWeightCounter = 0;
     double totalWeightAverage;
     cout << "One to One Pairings: " << endl;
