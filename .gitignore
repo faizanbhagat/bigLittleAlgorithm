@@ -1,2 +1,6 @@
+# input files and executables
 *.csv
 *.exe
+
+# vscode files
+.vscode/
