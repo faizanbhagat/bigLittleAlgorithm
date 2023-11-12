@@ -51,7 +51,7 @@ vector<vector<bigLittlePairing> > allFinalPairings;
 unordered_map<string, unordered_map<string, int> > bigLittleDist;
 unordered_map<string, unordered_map<string, int> > littleBigDist;
 
-int bestAmount = 1000;
+int bestAmount = INT_MAX;
 int currAmount = -1;
 
 int amountOfTwins = 0;
@@ -99,7 +99,7 @@ void printOneFinalPairing(vector<bigLittlePairing> finalPairing)
 
     cout << endl
          << "Total weight of solution: " << totalWeightCounter << endl;
-    cout << "Average weight of solution per person: " << totalWeightAverage << endl;
+    cout << "Average weight of pairing: " << totalWeightAverage << endl;
 }
 
 /*
