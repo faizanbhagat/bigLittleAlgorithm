@@ -17,7 +17,7 @@ Notes about input files:
 2. Add your ranking files to the folder
 3. Open a terminal and navigate to this folder
 4. Run `g++ -g pairing.cpp -o pairing.exe`
-5. Then run `./pairing`
+5. Then run `./pairing.exe`
 6. Input the two files as given by the prompts
 7. Program will return the mathematically optimal big little pairings, enjoy!
 
