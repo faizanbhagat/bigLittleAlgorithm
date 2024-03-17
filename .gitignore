@@ -1,6 +1,7 @@
 # input files and executables
 *.csv
 *.exe
+pairing
 
 # vscode files
 .vscode/
