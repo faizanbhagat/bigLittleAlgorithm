@@ -51,7 +51,7 @@ vector<vector<bigLittlePairing> > allFinalPairings;
 unordered_map<string, unordered_map<string, int> > bigLittleDist;
 unordered_map<string, unordered_map<string, int> > littleBigDist;
 
-int bestAmount = INT_MAX;
+int bestAmount = 5000;
 int currAmount = -1;
 
 int amountOfTwins = 0;
