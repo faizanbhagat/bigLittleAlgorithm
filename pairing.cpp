@@ -152,6 +152,9 @@ void readData(string bigToLittleInput, string littleToBigInput)
             }
             bigToLittle.push_back(row);
         }
+    } else {
+        cout << "ERROR: Could not open file " << bigToLittleInput << endl;
+        exit(1);
     }
 
     fstream lFile(littleToBigInput, ios::in);
@@ -168,6 +171,9 @@ void readData(string bigToLittleInput, string littleToBigInput)
             }
             littleToBig.push_back(row);
         }
+    } else {
+        cout << "ERROR: Could not open file " << littleToBigInput << endl;
+        exit(1);
     }
 
     if (bigToLittle.size() > littleToBig.size())
@@ -357,7 +363,7 @@ void generatePairings(const vector<string> &littles, const vector<string> &bigs,
         if (!used[i])
         {
             int tempWeight = 0;
-            if (littleBigDist[littles[i]].find(bigs[index]) == littleBigDist[littles[i]].end())
+            if (!littleBigDist[littles[i]].contains(bigs[index]))
             {
                 tempWeight = 5000;
             }
@@ -365,7 +371,7 @@ void generatePairings(const vector<string> &littles, const vector<string> &bigs,
             {
                 tempWeight += littleBigDist[littles[i]][bigs[index]];
             }
-            if (bigLittleDist[bigs[index]].find(littles[i]) == bigLittleDist[bigs[index]].end())
+            if (!bigLittleDist[bigs[index]].contains(littles[i]))
             {
                 tempWeight = 5000;
             }

@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++11 -Wall -Werror
+CFLAGS = -std=c++20 -Wall -Werror
 TARGET = pairing
 SOURCES = pairing.cpp
 
