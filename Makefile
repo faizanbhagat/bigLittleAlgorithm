@@ -7,6 +7,6 @@ make: $(SOURCES)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCES)
 	@echo "Compilation complete."
 
-clean: 
+clean:
 	rm -f $(TARGET)
 	@echo "Cleanup complete."
