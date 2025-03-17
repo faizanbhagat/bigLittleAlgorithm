@@ -6,7 +6,7 @@ Please prepare the input files like the example files, bigToLittleExample.csv an
 
 Notes about input files:
 
--   The second column is each person's first ranking, the third column their second ranking etc...
+-   The second column is Column A's first ranking, the third column their second ranking etc...
 -   Ensure spelling is correct for all cells, failure to do so will result in improper results
 -   Ensure that there are either an equal number or more littles than bigs
 -   Ensure that there are no headers on either of the files
