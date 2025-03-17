@@ -6,7 +6,6 @@ Please prepare the input files like the example files, bigToLittleExample.csv an
 
 Notes about input files:
 
--   The first column is the person who's ranking follows
 -   The second column is each person's first ranking, the third column their second ranking etc...
 -   Ensure spelling is correct for all cells, failure to do so will result in improper results
 -   Ensure that there are either an equal number or more littles than bigs
